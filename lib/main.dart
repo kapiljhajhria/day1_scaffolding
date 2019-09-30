@@ -8,8 +8,9 @@ class Student {
 }
 
 void main() {
-  String msg = 'Hello World';
-  Text textWidget = Text(msg);
-  MaterialApp myApp = MaterialApp(home: textWidget);
-  runApp(myApp);
+  runApp(MaterialApp(
+    home: Text(
+      'hello everyone',
+    ),
+  ));
 }
