@@ -20,6 +20,10 @@ void main() {
                 'https://mclarencollege.in/images/9fc76a72-5b06-432f-b92e-d41d8ad5629f.jpg'),
           ),
         ),
+        floatingActionButton: FloatingActionButton(
+          child: Image(
+              image: NetworkImage('https://mclarencollege.in/images/icon.png')),
+        ),
       ),
     ),
   );
