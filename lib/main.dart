@@ -8,11 +8,15 @@ class Student {
 }
 
 void main() {
-  runApp(MaterialApp(
-    home: Center(
-      child: Text(
-        'hello everyone',
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.orangeAccent,
+        appBar: AppBar(
+          backgroundColor: Colors.green,
+          title: Text("Hello World"),
+        ),
       ),
     ),
-  ));
+  );
 }
