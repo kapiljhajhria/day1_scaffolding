@@ -13,8 +13,17 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.orangeAccent,
         appBar: AppBar(
+          leading: Image(
+              image: NetworkImage(
+                  'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg')),
           backgroundColor: Colors.green,
-          title: Text("Hello World"),
+          title: Text("Image Widget"),
+        ),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+          ),
         ),
       ),
     ),
